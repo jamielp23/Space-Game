@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Modular Weapons",
+	"Description": "Data-driven, fully modular weapon architecture for UE5.6. Supports pistols, assault rifles, shotguns, snipers, energy, heavy weapons and throwables entirely through Data Assets, so designers can author new weapons without writing code.",
+	"Category": "Gameplay",
+	"CreatedBy": "Continuum Saga Gameplay Team",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ModularWeapons",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
